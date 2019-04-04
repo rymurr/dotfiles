@@ -1,0 +1,8 @@
+[user]
+	email = rymurr@gmail.com
+	name = Ryan Murray
+	signingkey = 5511A7F7547D7C52
+[core]
+	autocrlf = input
+[push]
+	default = simple

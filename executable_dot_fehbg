@@ -1,0 +1,2 @@
+#!/bin/sh
+'feh' '--bg-scale' '/home/ryan/london_night_2-wallpaper-2560x1440.jpg' 
