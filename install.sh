@@ -9,3 +9,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | b
 # pip install thefuck powerline
 # neovim
 # spacevim
+# all the yubikey stuff
+# wavebox
+# fonts

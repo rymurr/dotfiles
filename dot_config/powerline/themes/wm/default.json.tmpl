@@ -1,0 +1,50 @@
+{
+	"segments": {
+		"right": [
+		    {
+                "function": "powerline.segments.common.net.network_load",
+                "priority": 90
+            },	
+            {
+				"function": "powerline.segments.common.wthr.weather",
+				"priority": 50,
+                "args": {
+                    "location_query": "lcy"
+                }
+			},
+			{
+				"function": "powerline.segments.common.time.fuzzy_time",
+                "priority": 60
+			},
+            {
+                "function": "powerline.segments.common.time.date",
+                "args": {
+                    "format": "%a %b %-d %Y"
+                }
+            },
+			{
+				"function": "powerline.segments.common.mail.email_imap_alert",
+				"priority": 10,
+				"args": {
+					"username": "{{ .email }}",
+					"password": "{{ pass "chezmoi/email"}}"
+				}
+			},
+            {
+                "function": "powerline.segments.common.bat.battery",
+                "args": {
+                    "gamify": true,
+                    "empty_heart":"♥",
+                    "full_heart":"♥"
+                }
+            },
+            {
+                "function": "powerline.segments.common.sys.system_load"
+            },
+            {
+                "function": "powerline.segments.common.net.external_ip"
+            }
+		]
+
+	}
+}
