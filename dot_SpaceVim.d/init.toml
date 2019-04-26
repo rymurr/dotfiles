@@ -25,6 +25,7 @@
     enable_statusline_mode = false
     bootstrap_before = "myfunction#before"
     automatic_update = 1
+    enable_neomake = true
     lint_on_the_fly = true
 
 # Enable autocomplete layer

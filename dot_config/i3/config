@@ -195,7 +195,7 @@ exec_always --no-startup-id xautolock -time 5 -locker "i3lock -c 073642 && sleep
 exec ~/.fehbg 
 exec ~/bin/jetbrains-toolbox
 exec nm-applet
-exec rescutume
+exec rescuetime
 exec /usr/bin/start-pulseaudio-x11
 exec ~/bin/start_vimwiki.sh
 exec /opt/wavebox/Wavebox
