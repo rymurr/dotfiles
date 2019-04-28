@@ -199,3 +199,4 @@ exec rescuetime
 exec /usr/bin/start-pulseaudio-x11
 exec ~/bin/start_vimwiki.sh
 exec /opt/wavebox/Wavebox
+exec insync start
