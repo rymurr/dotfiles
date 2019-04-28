@@ -1,0 +1,1 @@
+kitty --title vimwiki vi
