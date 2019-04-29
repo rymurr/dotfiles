@@ -172,6 +172,7 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+S [class="wavebox"] scratchpad show
 bindsym $mod+Shift+V [title="vimwiki"] scratchpad show
+bindsym $mod+Shift+D [title="scratchwindow"] scratchpad show
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -198,5 +199,6 @@ exec nm-applet
 exec rescuetime
 exec /usr/bin/start-pulseaudio-x11
 exec ~/bin/start_vimwiki.sh
+exec ~/bin/start_scratch.sh
 exec /opt/wavebox/Wavebox
 exec insync start
