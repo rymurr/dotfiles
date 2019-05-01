@@ -27,6 +27,7 @@
     automatic_update = 1
     enable_neomake = true
     lint_on_the_fly = true
+    enable_googlesuggest = 1
 
 # Enable autocomplete layer
 [[layers]]
@@ -41,7 +42,12 @@ auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
 name = 'colorscheme'
-
+[[layers]]
+name = 'sudo'
+[[layers]]
+name = 'test'
+[[layers]]
+name = 'tools#zeal'
 [[layers]]
 name = "lang#c"
 [[layers]]
@@ -69,6 +75,8 @@ name = "denite"
 name = "lang#dockerfile"
 [[layers]]
 name = "lang#html"
+[[layers]]
+name = "lang#ipynb"
 #[[layers]]
 #name = "tmux"
 
