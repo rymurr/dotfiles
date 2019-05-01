@@ -1,8 +1,12 @@
 [user]
 	email = rymurr@gmail.com
 	name = Ryan Murray
-	signingkey = 5511A7F7547D7C52
+	signingkey = D40F55B4EFC5FD77
 [core]
 	autocrlf = input
 [push]
 	default = simple
+[commit]
+	gpgsign = true
+[alias]
+	commit = commit
