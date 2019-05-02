@@ -200,5 +200,7 @@ exec rescuetime
 exec /usr/bin/start-pulseaudio-x11
 exec ~/bin/start_vimwiki.sh
 exec ~/bin/start_scratch.sh
-exec /opt/wavebox/Wavebox
+# exec /opt/wavebox/Wavebox
 exec insync start
+exec compton --conf ~/.compton.conf
+exec ~/.config/conky/launchConky.sh
