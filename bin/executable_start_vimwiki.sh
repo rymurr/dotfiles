@@ -1,1 +1,2 @@
-kitty --title vimwiki vi
+#!/bin/bash
+kitty --detach --title=vimwiki
