@@ -170,7 +170,7 @@ bindsym $mod+Shift+minus move scratchpad
 
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
-bindsym $mod+Shift+S [title="^Inbox - .*"] scratchpad show
+bindsym $mod+Shift+S [title=".* - Gmail$"] scratchpad show
 bindsym $mod+Shift+V [title="vimwiki"] scratchpad show
 bindsym $mod+Shift+D [title="scratchwindow"] scratchpad show
 
