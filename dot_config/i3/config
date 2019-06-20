@@ -171,8 +171,11 @@ bindsym $mod+Shift+minus move scratchpad
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+S [title=".* - Gmail$"] scratchpad show
+bindsym $mod+g [title=".* - Gmail$"] scratchpad show
 bindsym $mod+Shift+V [title="vimwiki"] scratchpad show
+bindsym $mod+n [title="vimwiki"] scratchpad show
 bindsym $mod+Shift+D [title="scratchwindow"] scratchpad show
+bindsym $mod+b [title="scratchwindow"] scratchpad show
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
